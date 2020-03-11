@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="ClientManagementWebService.SubscriptionWebService, App_Code.pb5dvmyd" Factory="Autofac.Integration.Wcf.AutofacServiceHostFactory, Autofac.Integration.Wcf" CodeBehind="~/App_Code/SubscriptionWebService.cs" %>

@@ -1,0 +1,71 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.757
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientWebService.Tests", "ClientWebService.Tests\ClientWebService.Tests.csproj", "{EC081E95-87E1-47A3-969C-8689666001FB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3928C6F9-39E1-4DA8-86C2-A6871710F90E} = {3928C6F9-39E1-4DA8-86C2-A6871710F90E}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientManagement.Model", "ClientManagement.Models\ClientManagement.Model.csproj", "{80AD255C-C941-409D-80A1-DD1FD484AF52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientManagement.Service", "ClientManagement.Service\ClientManagement.Service.csproj", "{D394D823-2E65-41BB-9196-0861E44F4D74}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ClientManagementWebService", "ClientManagementWebService\", "{3928C6F9-39E1-4DA8-86C2-A6871710F90E}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.2"
+		ProjectReferences = "{d394d823-2e65-41bb-9196-0861e44f4d74}|ClientManagement.Service.dll;{80AD255C-C941-409D-80A1-DD1FD484AF52}|ClientManagement.Model.dll;{703B88D7-E7DF-4755-85DA-894D2D79172C}|ClientManagement.Data.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_58950"
+		Debug.AspNetCompiler.PhysicalPath = "ClientManagementWebService\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_58950\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_58950"
+		Release.AspNetCompiler.PhysicalPath = "ClientManagementWebService\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_58950\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "58950"
+		SlnRelativePath = "ClientManagementWebService\"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientManagement.Data", "ClientManagement.Data\ClientManagement.Data.csproj", "{703B88D7-E7DF-4755-85DA-894D2D79172C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC081E95-87E1-47A3-969C-8689666001FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC081E95-87E1-47A3-969C-8689666001FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC081E95-87E1-47A3-969C-8689666001FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80AD255C-C941-409D-80A1-DD1FD484AF52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80AD255C-C941-409D-80A1-DD1FD484AF52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80AD255C-C941-409D-80A1-DD1FD484AF52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80AD255C-C941-409D-80A1-DD1FD484AF52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D394D823-2E65-41BB-9196-0861E44F4D74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D394D823-2E65-41BB-9196-0861E44F4D74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D394D823-2E65-41BB-9196-0861E44F4D74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D394D823-2E65-41BB-9196-0861E44F4D74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3928C6F9-39E1-4DA8-86C2-A6871710F90E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3928C6F9-39E1-4DA8-86C2-A6871710F90E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3928C6F9-39E1-4DA8-86C2-A6871710F90E}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{3928C6F9-39E1-4DA8-86C2-A6871710F90E}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{703B88D7-E7DF-4755-85DA-894D2D79172C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{703B88D7-E7DF-4755-85DA-894D2D79172C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{703B88D7-E7DF-4755-85DA-894D2D79172C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{703B88D7-E7DF-4755-85DA-894D2D79172C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DEBB156D-4AC5-4016-83B1-FE699AE62461}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="ClientManagementWebService.ErrorReportingWebService, App_Code.jznexe1x" Factory="Autofac.Integration.Wcf.AutofacServiceHostFactory, Autofac.Integration.Wcf" CodeBehind="~/App_Code/ErrorReportingWebService.cs" %>
